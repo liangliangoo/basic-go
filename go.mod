@@ -2,4 +2,7 @@ module liangliango/basic-go
 
 go 1.20
 
-require golang.org/x/net v0.15.0 // indirect
+require (
+	github.com/julienschmidt/httprouter v1.3.0 // indirect
+	golang.org/x/net v0.15.0 // indirect
+)
